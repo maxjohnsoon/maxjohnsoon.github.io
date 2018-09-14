@@ -1,0 +1,43 @@
+div{
+  border: 3px;
+  border-color: #73F453;
+  border-style: outset;
+  padding:10px;
+}
+#kan {
+    background-color: #F5A540;
+    list-style-type: upper-roman;
+    border-style: dotted;
+    border-width: 6px;
+    border-color: #2046F5;
+}
+
+td.center{
+  border:2px;
+  border-color:black;
+  border-style: solid;
+  border-spacing:30px;
+  text-align: center;
+
+
+}
+
+th {
+    border-left: 2px;
+    border-right:2px;
+    border-top: 2px;
+    border-bottom: 7px;
+    border-style: solid;
+
+}
+
+#max{
+  list-style-type:circle;
+  background-color:#ED3833;
+  border-style:dashed;
+  border-width: 5px;
+  border-color: #39811D;
+}
+#ye{
+  background-color: #77DDDD;
+}
