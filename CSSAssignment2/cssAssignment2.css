@@ -1,7 +1,7 @@
 div{
-  border: 4px;
+  border: 7px;
   border-color: #73F453;
-  border-style: outset;
+  border-style: groove;
   width:545px;
 }
 #kan {
