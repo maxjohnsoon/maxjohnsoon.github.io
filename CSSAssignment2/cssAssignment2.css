@@ -1,8 +1,8 @@
 div{
-  border: 3px;
+  border: 4px;
   border-color: #73F453;
   border-style: outset;
-  padding:10px;
+  width:545px;
 }
 #kan {
     background-color: #F5A540;
@@ -12,7 +12,7 @@ div{
     border-color: #2046F5;
 }
 
-td.center{
+td{
   border:2px;
   border-color:black;
   border-style: solid;
@@ -21,6 +21,11 @@ td.center{
 
 
 }
+
+table{
+  border-spacing: 5px 20px;
+}
+
 
 th {
     border-left: 2px;
@@ -37,7 +42,15 @@ th {
   border-style:dashed;
   border-width: 5px;
   border-color: #39811D;
+
 }
-#ye{
-  background-color: #77DDDD;
+
+
+
+tr.purple:hover{
+background-color:#BBBBEE;
+}
+
+tr.blue:hover{
+background-color: #77DDDD;
 }
