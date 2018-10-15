@@ -1,0 +1,119 @@
+body{
+  text-align: center;
+  background-color: #075C77;
+}
+h2{
+  color:white;
+  text-align: center;
+  font:icon;
+  font-size: 40px;
+}
+p{
+  color:white;
+}
+li{
+  display:inline;
+  margin-left: 10px;
+  font:icon;
+}
+ul{
+  text-align: center;
+  position:relative;
+  right:20px;
+}
+.button1{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button2{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button4{
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button5{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.largep{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+figcaption{
+  color: white;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.image{
+  border:5px;
+  border-style: solid;
+  border-color: white;
+}
+.icon{
+  height:30;
+  width:30;
+}
+table,th,td{
+  text-align: center;
+  margin: auto;
+  font-size: 50px;
+}
+table{
+  border:5px;
+  border-style:solid;
+  border-color: white;
+  font:icon;
+  background-color: aqua;
+}
+.foot{
+  text-align: center;
+  margin: auto;
+}
+#green:hover{
+  background-color: green;
+}
+#yellow:hover{
+  background-color: yellow;
+}
+#red:hover{
+  background-color: red;
+}
+#orange:hover{
+  background-color: orange;
+}
+#white:hover{
+  background-color: white;
+}
+#blue:hover{
+  background-color: blue;
+}
+.images{
+  display:inline;
+
+}
