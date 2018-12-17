@@ -1,0 +1,99 @@
+.center{
+  text-align:center;
+}
+.red{
+  color: #C60A1D;
+  font-family: sans-serif;
+}
+.button
+  {
+      background-color: #C60A1D;
+      border-radius: 5px;
+      font-family: sans-serif;
+      color: #FFC400;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+  ul,li.navList
+  {
+    display:inline;
+    text-align: center;
+  }
+
+  .test{
+    padding-left: 240px;
+  }
+
+body{
+  background-color: #FFC400;
+  font-family: sans-serif;
+
+}
+.yeet{
+  text-align: center;
+  width:333px;
+  height:160px;
+  padding:20px;
+  margin:100px auto;
+
+
+  background-image: url(index.png);
+  background-size: cover;
+  text-align: center;
+}
+.sans{
+  font-family: "Comic Sans MS";
+  color: #C60A1D;
+}
+.pg{
+  display: inline;
+}
+.pick{
+  background-color: yellow;
+  border-radius: 6px;
+  border-color: white;
+}
+#test{
+  width:60px;
+  height:60px;
+  padding:20px;
+  background: blue;
+}
+.top{
+  border: 5px black solid;
+  background-color: aqua;
+}
+.row{
+  border: 5px black solid;
+  background-color: grey;
+}
+.table{
+  background-color: black;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+.sg{
+  background-color: white;
+  border: 5px red solid;
+  width:100px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.sg2{
+  background-color: white;
+  border: 5px red solid;
+  width:100px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 406px;
+}
+.iframe{
+  margin-top: 25px;
+}
