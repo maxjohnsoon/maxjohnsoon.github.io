@@ -97,3 +97,7 @@ body{
 .iframe{
   margin-top: 25px;
 }
+li{
+  text-align: left;
+  list-style: none;
+}
