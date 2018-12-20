@@ -1,0 +1,204 @@
+//var $charlie = $("#test");
+
+//document.write($charlie);
+
+/*function correct(){
+  document.write("Correct");
+}
+function incorrect(){
+  document.write("Incorrect");
+}
+$('#yes').on("click", correct);
+$('#no').on("click", incorrect);*/
+
+var insc = 0;
+var cosc = 0;
+var sc = 0;
+var correct = function() {
+cosc+=1;
+};
+var incorrect = function() {
+insc+=1;
+};
+var score = function(){
+  sc = Math.round(((cosc)/(cosc+insc))*100) + "%";
+}
+$("#score").html(sc);
+$("#score1").html(cosc);
+$("#score2").html(insc);
+$(document).ready(function(){
+    $("#yes").click(function(){
+          $("#p1").html("<b>Correcto!</b>");
+          correct();
+          $("#score1").html(cosc);
+          score();
+          $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#no").click(function(){
+        $("#p1").html("<b>Incorrecto.</b>");
+        incorrect();
+        $("#score2").html(insc);
+        score();
+        $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#yes2").click(function(){
+          $("#p2").html("<b>Correcto!</b>");
+          correct();
+          $("#score1").html(cosc);
+          score();
+          $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#no2").click(function(){
+        $("#p2").html("<b>Incorrecto.</b>");
+        incorrect();
+        $("#score2").html(insc);
+        score();
+        $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#yes3").click(function(){
+          $("#p3").html("<b>Correcto!</b>");
+          correct();
+          $("#score1").html(cosc);
+          score();
+          $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#no3").click(function(){
+        $("#p3").html("<b>Incorrecto.</b>");
+        incorrect();
+        $("#score2").html(insc);
+        score();
+        $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#yes4").click(function(){
+          $("#p4").html("<b>Correcto!</b>");
+          correct();
+          $("#score1").html(cosc);
+          score();
+          $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#no4").click(function(){
+        $("#p4").html("<b>Incorrecto.</b>");
+        incorrect();
+        $("#score2").html(insc);
+        score();
+        $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#yes5").click(function(){
+          $("#p5").html("<b>Correcto!</b>");
+          correct();
+          $("#score1").html(cosc);
+          score();
+          $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#no5").click(function(){
+        $("#p5").html("<b>Incorrecto.</b>");
+        incorrect();
+        $("#score2").html(insc);
+        score();
+        $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#yes6").click(function(){
+          $("#p6").html("<b>Correcto!</b>");
+          correct();
+          $("#score1").html(cosc);
+          score();
+          $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#no6").click(function(){
+        $("#p6").html("<b>Incorrecto.</b>");
+        incorrect();
+        $("#score2").html(insc);
+    });
+});
+$(document).ready(function(){
+    $("#yes7").click(function(){
+          $("#p7").html("<b>Correcto!</b>");
+          correct();
+          $("#score1").html(cosc);
+    });
+});
+$(document).ready(function(){
+    $("#no7").click(function(){
+        $("#p7").html("<b>Incorrecto.</b>");
+        incorrect();
+        $("#score2").html(insc);
+        score();
+        $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#yes8").click(function(){
+          $("#p8").html("<b>Correcto!</b>");
+          correct();
+          $("#score1").html(cosc);
+          score();
+          $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#no8").click(function(){
+        $("#p8").html("<b>Incorrecto.</b>");
+        incorrect();
+        $("#score2").html(insc);
+        score();
+        $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#yes9").click(function(){
+          $("#p9").html("<b>Correcto!</b>");
+          correct();
+          $("#score1").html(cosc);
+          score();
+          $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#no9").click(function(){
+        $("#p9").html("<b>Incorrecto.</b>");
+        incorrect();
+        $("#score2").html(insc);
+        score();
+        $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#yes10").click(function(){
+          $("#p10").html("<b>Correcto!</b>");
+          correct();
+          $("#score1").html(cosc);
+          score();
+          $("#score").html(sc);
+    });
+});
+$(document).ready(function(){
+    $("#no10").click(function(){
+        $("#p10").html("<b>Incorrecto.</b>");
+        incorrect();
+        $("#score2").html(insc);
+        score();
+        $("#score").html(sc);
+    });
+});

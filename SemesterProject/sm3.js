@@ -1,0 +1,29 @@
+  $("#pptb").hide()
+  $("#pp").show()
+  $("#setb").hide()
+  $("#se").show()
+  $(document).ready(function(){
+              $("#pp").click(function(){
+                    $("#pptb").show()
+                    $("#pp").hide()
+                  });
+              });
+  $(document).ready(function(){
+                $("#pptb").click(function(){
+                      $("#pp").show()
+                      $("#pptb").hide()
+                    });
+              });
+
+$(document).ready(function(){
+            $("#se").click(function(){
+                  $("#setb").show()
+                  $("#se").hide()
+                });
+            });
+$(document).ready(function(){
+              $("#setb").click(function(){
+                    $("#se").show()
+                    $("#setb").hide()
+                  });
+            });
